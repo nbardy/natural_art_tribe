@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Upcoming Events</h1>
+    </header>
+    <main>
+        <section class="event">
+            <div class="event-image">
+                <img src="nature-art-ai.jpg" alt="Nature, Art, and AI">
+            </div>
+            <div class="event-description">
+                <h2>Nature, Art, and AI: Our machines don't need to be at odds with art or the natural world</h2>
+                <p><strong>Hosted at the Climate Tech house, "Treehouse"</strong></p>
+                <p>The event is a long hike in Marin County where we will hike for 2-3 hours. Afterwards, we will head back to Treehouse. I'll walk through some of my process for editing art with AI tools and show you how to use some of these tools for nature. Let's make art together!</p>
+                <a href="https://www.luma.com/signup-for-event" class="cta-button" target="_blank">Sign Up for Event</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 The Collective</p>
+    </footer>
+</body>
+</html>
