@@ -90,6 +90,13 @@ footer {
     width: 100%;
 }
 
+.card-section {
+    display: flex;
+    .card {
+        width: 200px
+    }
+}
+
 .card {
     display: inline-block;
     background-color: #FFFFFF;
