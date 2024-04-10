@@ -93,7 +93,7 @@ footer {
 .card-section {
     display: flex;
     .card {
-        width: 200px
+        width: 200px;
     }
 }
 
