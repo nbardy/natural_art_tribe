@@ -92,9 +92,7 @@ footer {
 
 .card-section {
     display: flex;
-    .card {
-        width: 200px;
-    }
+    
 }
 
 .card {
@@ -106,6 +104,10 @@ footer {
     transition: box-shadow 0.3s ease-in-out;
     cursor: pointer;
 }
+
+.small-card {
+    width: 200px;
+ }
 
 .card:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
