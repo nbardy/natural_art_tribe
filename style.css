@@ -92,7 +92,7 @@ footer {
 
 .card-section {
     display: flex;
-    
+    justify-content: center;
 }
 
 .card {
