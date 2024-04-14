@@ -1,8 +1,30 @@
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #FFF8DC;
+    background-color: #FFFACD; /* Lemon Chiffon background */
+}
+
+main > section, footer {
+    text-align: center;
+}
+
+main > section {
+    padding: 50px 20px;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 nav {
@@ -58,11 +80,12 @@ header {
 
 h1 {
     color: #556B2F;
+    font-size: 3em;
+    margin: 0;
 }
 
-.cta-button {
+.cta-button, .cta-button:hover {
     display: inline-block;
-    background-color: #6B8E23;
     color: #FFF;
     padding: 10px 20px;
     text-decoration: none;
@@ -71,23 +94,12 @@ h1 {
     margin-top: 10px;
 }
 
+.cta-button {
+    background-color: #6B8E23;
+}
+
 .cta-button:hover {
     background-color: #9ACD32;
-}
-
-main > section {
-    padding: 20px;
-    text-align: center;
-}
-
-footer {
-    background-color: #556B2F;
-    color: #FFF;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 .card-section {
@@ -95,7 +107,7 @@ footer {
     justify-content: center;
 }
 
-.card {
+.card, .card:hover {
     display: inline-block;
     background-color: #FFFFFF;
     margin: 10px;
@@ -105,9 +117,9 @@ footer {
     cursor: pointer;
 }
 
-.small-card {
-    width: 200px;
- }
+.card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
 
 .card:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -130,9 +142,18 @@ footer {
     text-align: center;
 }
 
-.volunteer-cta {
+.volunteer-cta, .volunteer-cta .cta-button.volunteer {
     text-align: center;
     margin-top: 40px;
+}
+
+.volunteer-cta {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .cta-button.volunteer {
@@ -140,8 +161,6 @@ footer {
     padding: 15px 30px;
     font-size: 20px;
 }
-
-/* Add to your existing style.css */
 
 /* Event Card Styling */
 .event-card {
@@ -169,36 +188,6 @@ footer {
     margin-top: 0;
 }
 
-.cta-button {
-    background-color: #556B2F;
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: inline-block;
-    margin-top: 10px;
-    border-radius: 5px;
-}
-
-.cta-button:hover {
-    background-color: #6B8E23;
-}
-
-/* Volunteer CTA Section Styling */
-.volunteer-cta {
-    text-align: center;
-    padding: 20px;
-    background-color: #f4f4f4;
-    margin: 20px auto;
-    max-width: 800px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-}
-
-.volunteer-cta .cta-button.volunteer {
-    background-color: #FF4500;
-    margin-top: 20px;
-}
-
 /* Responsive Design for smaller screens */
 @media (max-width: 768px) {
     .event-card {
@@ -209,4 +198,3 @@ footer {
         width: 100%;
     }
 }
-
