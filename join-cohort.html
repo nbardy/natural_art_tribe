@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join Cohort</title>
+    <title>Join Our Cohort - Pachamama Collectivo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="header-placeholder"></div>
     <header>
-        <h1>Join Our Cohort</h1>
+        <h1>Join Our Cohort in Paraty, Brazil!</h1>
     </header>
     <main>
-        <form action="/join-cohort" method="POST">
+        <section id="join-cohort-details">
+            <p>Our first cohort will convene in the wonderful town of Paraty, Brazil in June 2025.</p>
+            <p>Paraty, Brazil, is a beautiful location in a remote town near Rio de Janeiro, Brazil. Some of the opportunities available to artists include: world-class clear water for underwater diving, beautiful beaches and breaking waves for ocean/surf photographers, lush green landscapes and coastal mountain ranges for plein air painters and landscape photographers. Plus, the bustling city of Rio de Janeiro, with its overflowing culture and beauty, is only a 3-hour drive away. We can enjoy the combination of having a quiet place and being close enough to Brazil's cultural hub to visit and embrace all the aspects of this beautiful region.</p>
+            <h3>Lodging:</h3>
+            <p>Show the example photo of one of the rooms we found. We'll offer single beds and shared rooms (for those who want to keep their budget down). We'll provide a place with quality Wi-Fi and have community norms of quiet time during working hours. Many of us have professional jobs we need to maintain for our income, and the house will be conducive. Then, we can enjoy our mornings, evenings, and weekends enjoying the beautiful space around us.</p>
+            <p>For Paraty, we are looking at a few available options for large houses. One example is below.</p>
+            <!-- Example photo placeholder -->
+            <img src="example-room.jpg" alt="Example room in Paraty">
+        </section>
+        <form action="/join-cohort" method="POST" id="join-cohort-form">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-            <button type="submit">Join Cohort</button>
+            <button type="submit" class="cta-button">Join Cohort</button>
         </form>
     </main>
-    <footer>
-        <p>&copy; 2024 The Collective</p>
-    </footer>
+    <script src="header-footer-loader.js"></script>
 </body>
 </html>
